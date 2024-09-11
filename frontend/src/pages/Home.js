@@ -5,6 +5,7 @@ import History from '../components/History';
 import GuidePage from './GuidePage';
 import ProgressReport from '../components/ProgressReport';
 import Reporthome from './Reporthome';
+import Footer from '../components/Footer';
 
 const HomePage = () => {
   return (
@@ -74,7 +75,9 @@ const HomePage = () => {
       <div className="w-full">
         <GuidePage />
       </div>
-      
+      <div className="w-full">
+        <Footer />
+      </div>
     </div>
   );
 };
